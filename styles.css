@@ -104,3 +104,52 @@ button{
     align-self: flex-end;
     font-weight: bolder;
 }
+
+/* Action box */
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialog{
+    display: flex;
+    background-color: #3882f6;
+    padding: 32px 64px;
+    margin: 32px auto;
+    border-radius: 8px;
+    color: #e5e7eb;
+    gap: 64px;
+}
+
+.appeal{
+    display: flex;
+    flex-direction: column;
+}
+
+.action button{
+    border: solid white 2px;
+    border-radius: 8px;
+}
+
+.small-text{
+    font-size: 12px;
+}
+
+.big{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+/* footer */
+.footer{
+    background-color: #1f2937;
+    
+}
+.holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    color: #e5e7eb;
+}

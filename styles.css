@@ -33,7 +33,7 @@ h1{
     color: #f9faf8;
 }
 
-p{
+.header p{
     font-size: 18px;
     color:#e5e7eb ;
     
@@ -79,3 +79,28 @@ button{
     font-size: 36px;
     color: #1f2937;
  }
+
+ /* Qoute */
+.quote{
+    background-color: #e5e7eb;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+    padding: 24px;
+}
+
+.quote p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 10;
+}
+
+.author{
+    align-self: flex-end;
+    font-weight: bolder;
+}

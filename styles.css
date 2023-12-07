@@ -1,5 +1,5 @@
 
-
+/* Header */
 .header{
     background-color: #1f2937;
     padding: 24px 200px 100px;
@@ -10,7 +10,7 @@
     justify-content: space-between;
 }
 
-ul{
+.header ul{
     display: flex;
     list-style: none;
     gap: 16px;
@@ -39,7 +39,7 @@ p{
     
 }
 
-h2{
+.header h2{
     font-size: 24px;
     color: #f9faf8;
 }
@@ -52,6 +52,30 @@ button{
     border: 0;
 }
 
-img{
-    /* width: 400px; */
-}
+/* Info */
+ .container{
+    display: flex;
+    gap:64px;
+    justify-content: center;
+ }
+
+ .info p{
+    font-size: 18px;
+    color: #1f2937;
+    width: 180px;
+    text-align: center;
+ }
+
+ .box{
+    border: solid #3882f6 4px;
+    border-radius: 12px;
+    width: 180px;
+    height: 180px;
+ }
+
+ .info h2{
+    text-align: center;
+    font-weight: 800;
+    font-size: 36px;
+    color: #1f2937;
+ }
